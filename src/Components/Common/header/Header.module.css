@@ -1,0 +1,21 @@
+.HeaderMovie{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    padding:10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.DivButton{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+@media (max-width:600px) {
+    .HeaderMovie{
+        padding-bottom:3rem;
+    }
+}
